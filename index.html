@@ -30,8 +30,8 @@
     <div class="section hero-section">
       <h1 class="regular-heading">Hey</h1>
       <h1 class="big-name">I’m Charlie</h1>
-      <div class="btn-wrapper"><a href="#work"
-          class="button w-button" id="work-button">My Work</a><a href="#contact"
+      <div class="btn-wrapper"><a data-scroll href="#work"
+          class="button w-button" id="work-button">My Work</a><a data-scroll href="#contact"
           class="button black-bg left-margin w-button" id="contact-button">Contact Me</a></div>
     </div>
     <div id="work" class="section project-section">
@@ -150,7 +150,9 @@
     });
   </script>
   <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15.0.0/dist/smooth-scroll.polyfills.min.js"></script>
-  <script src="main.js"></script>
+  <script>
+	  var scroll = new SmoothScroll('a[href*="#"]');
+  </script>
 </body>
 
 </html>
