@@ -20,7 +20,7 @@ body {
   line-height: 1.5em;
 }
 
-.scroll {
+#work-button, #contact-button {
    scroll-behavior: smooth;
 }
 
