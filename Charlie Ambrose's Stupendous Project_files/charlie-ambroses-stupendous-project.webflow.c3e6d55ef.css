@@ -479,6 +479,10 @@ a {
     -ms-flex-order: -9999;
     order: -9999;
   }
+  #w-node-e20213610aac-1628196f.resize {
+     max-width: 50%;
+     max-height: 50%
+   }
   #w-node-e121527e50d3-1628196f {
     -ms-grid-column-align: start;
     justify-self: start;
