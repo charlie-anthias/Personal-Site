@@ -1,1 +1,1 @@
-const scroll = new SmoothScroll('#contact-button a[href*="#"]');
+const scroll = new SmoothScroll('.button a[href*="#"]');
