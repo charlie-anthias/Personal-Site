@@ -26,6 +26,10 @@ body {
    margin-top: -50px;
 }
 
+#essays-text {
+   font-size: smaller;
+}
+
 h1 {
   margin-top: 0em;
   margin-bottom: 0.35em;
