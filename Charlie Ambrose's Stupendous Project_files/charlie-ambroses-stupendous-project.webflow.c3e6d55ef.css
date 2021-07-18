@@ -26,6 +26,10 @@ body {
    margin-top: -50px;
 }
 
+.section hero-section {
+   margin-bottom: 10px;
+}
+
 #lets-connect {
    margin-top: 35px;
 }
