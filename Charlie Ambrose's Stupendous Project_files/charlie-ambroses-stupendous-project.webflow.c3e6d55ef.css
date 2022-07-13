@@ -140,8 +140,8 @@ a {
   padding-top: 14vh;
   padding-bottom: 20vh;
   /* background-image: url("c405e59f2114f36defe07f92a771d9a5.gif"); */ 
-  background-repeat: no-repeat;
-  background-size: cover;
+  /* background-repeat: no-repeat;
+  background-size: cover;*/
   background-color: #313131; 
 }
 
@@ -155,8 +155,8 @@ a {
   padding-top: 18vh;
   padding-bottom: 18vh;
   /* background-image: url("c405e59f2114f36defe07f92a771d9a5.gif"); */
-  background-repeat: no-repeat;
-  background-size: cover;
+  /* background-repeat: no-repeat;
+  background-size: cover; */
   background-color: #313131; 
 }
 
