@@ -145,6 +145,15 @@ a {
   background-color: #323232; 
 }
 
+#essays-sections {
+  padding-top: 14vh;
+  padding-bottom: 20vh;
+  /* background-image: url("c405e59f2114f36defe07f92a771d9a5.gif"); */ 
+  /* background-repeat: no-repeat;
+  background-size: cover;*/
+  background-color: #000000; 
+}
+
 .section.project-section {
   padding-top: 10vh;
   padding-bottom: 10vh;
