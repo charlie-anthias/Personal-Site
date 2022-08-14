@@ -20,15 +20,9 @@ body {
   line-height: 1.5em;
 }
 
-/*.gadgetings-logo {
-   width: 20px;
-   height: 260px;
-   margin-top: -50px;
-}*/
-
-/*.hero-section {
-   margin-bottom: -80px;
-}*/
+.social-image{
+   padding: 30px;
+}
 
 #lets-connect {
    margin-top: 35px;
