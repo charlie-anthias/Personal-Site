@@ -20,6 +20,10 @@ body {
   line-height: 1.5em;
 }
 
+.social-img{
+   padding: 30px;
+}
+
 #lets-connect {
    margin-top: 35px;
 }
