@@ -108,11 +108,12 @@ a {
 .button {
   padding: 0.875em 2.625em;
   border-radius: 0.3em;
-  background-color: #3f3f3f;
+  background-color: #ffffff;
   -webkit-transition: background-color 300ms ease;
   transition: background-color 300ms ease;
   font-size: 1.1vw;
   font-weight: 500;
+  font-color: #000000;
 }
 
 .button:hover {
