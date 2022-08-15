@@ -137,10 +137,10 @@ a {
 .section.hero-section {
   padding-top: 14vh;
   padding-bottom: 20vh;
-  /* background-image: url("c405e59f2114f36defe07f92a771d9a5.gif"); */ 
-  /* background-repeat: no-repeat;
-  background-size: cover;*/
-  background-color: #323232; 
+  background-image: url("Frame 80.png");  
+  background-repeat: no-repeat;
+  background-size: cover;
+  /*background-color: #323232; */
 }
 
 #essays-section {
