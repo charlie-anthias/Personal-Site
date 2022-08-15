@@ -42,7 +42,12 @@ body {
 
 #essays-h2 {
    margin-bottom: 17px;
-   background-image: linear-gradient(to right, #737DFE , #FFCAC9);
+   background: -webkit-linear-gradient(left, #737DFE , #FFCAC9);
+   background: -o-linear-gradient(right, #737DFE , #FFCAC9);
+   background: -moz-linear-gradient(right, #737DFE , #FFCAC9);
+   background: linear-gradient(to right, #737DFE , #FFCAC9); 
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 #contact {
