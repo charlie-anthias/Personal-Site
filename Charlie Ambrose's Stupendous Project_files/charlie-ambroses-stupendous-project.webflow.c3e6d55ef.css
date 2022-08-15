@@ -42,6 +42,7 @@ body {
 
 #essays-h2 {
    margin-bottom: 17px;
+   background-image: linear-gradient(to right, #737DFE , #FFCAC9);
 }
 
 #contact {
