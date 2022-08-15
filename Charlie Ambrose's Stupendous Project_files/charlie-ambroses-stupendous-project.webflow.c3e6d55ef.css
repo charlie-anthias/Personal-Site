@@ -120,7 +120,7 @@ a {
   color: #000000;
 }
 
-#work-button {
+/*#work-button {
   padding: 0.875em 2.625em;
   border-radius: 0.3em;
   background-image: linear-gradient(to right, #737DFE , #FFCAC9);
@@ -129,7 +129,7 @@ a {
   font-size: 1.1vw;
   font-weight: 500;
   color: #000000;
-}
+}*/
 
 .button:hover {
   background-color: #252525;
