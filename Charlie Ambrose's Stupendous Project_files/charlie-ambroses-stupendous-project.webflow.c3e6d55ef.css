@@ -152,14 +152,14 @@ a {
   padding-left: 10vw;
 }
 
-/*.section.hero-section {
+.section.hero-section {
   padding-top: 14vh;
   padding-bottom: 20vh;
   background-image: url("Frame 82.png");  
   background-repeat: no-repeat;
   background-size: cover;
   /*background-color: #323232; */
-}*/
+}
 
 #essays-section {
   padding-top: 14vh;
