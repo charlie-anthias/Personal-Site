@@ -146,10 +146,10 @@ a {
 #essays-section {
   padding-top: 14vh;
   padding-bottom: 20vh;
-  background-image: url("Frame 82.png"); 
+  /*background-image: url("Frame 82.png"); 
   background-repeat: no-repeat;
   background-size: cover;*/
-  /*background-color: #000000; */
+  background-color: #000000;
 }
 
 .section.project-section {
