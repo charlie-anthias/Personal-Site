@@ -135,6 +135,10 @@ a {
   background-color: #252525;
 }
 
+.w-button:hover {
+   background-color: #F2F2F2;
+}
+
 .button.black-bg {
   background-color: #000;
 }
