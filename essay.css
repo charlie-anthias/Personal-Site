@@ -1,0 +1,344 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@300&display=swap');
+@import url('https://db.onlinewebfonts.com/c/eb270b13b84d5a43462737e3fb0a268d?family=Suisse+Intl');
+/* *{
+    border: 1px solid red;
+} */
+@font-face {
+    font-family: "A1";
+    src: url(/fonts/Questrial-Regular.ttf);
+}
+body{
+    font-family: "A1";
+    padding: 0;
+    margin: 0;
+    background: #151718;
+}
+.essay_section_one{
+    height: auto;
+    min-height: 100vh;
+}
+.essay_main_div{
+    position: relative;
+    width: 100%;
+    max-width: 800px;
+    margin: auto;
+    height: auto;
+    padding-top: 30px;
+}
+a{
+    text-decoration: none;
+}
+.essay_navbar_div{
+    width: 100%;
+    padding-top: 60px;
+}
+.navbar-dark .navbar-toggler{
+    border: none;
+    box-shadow: none;
+    outline: none;
+    padding: 0;
+}
+.nav_container_fluid{
+    padding-right: 0;
+}
+.nav_ul_gap{
+    gap: 40px;
+}
+.navbar ul li a{
+    color: #fff !important;
+}
+.navbar ul li a:hover{
+    color: rgb(207, 207, 207);
+}
+.essay_sec1_row{
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 70px;
+}
+.essay_sec1_card_body_div {
+    margin-top: 30px !important;
+    background: #202426;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 400px;
+}
+.essay_card_img_div img{
+    border-radius: 10px 10px 0px 0px;
+    width: 100%;
+    height: 160px;
+}
+.essay_card_bottom_text_div{
+    position: relative;
+    padding: 20px;
+}
+.essay_card_bottom_text_div h5{
+    color: #fff;
+
+}
+.essay_card_bottom_text_div p{
+    color: #FFFFFFB8;
+}
+.essay_card_bottom_text_div img{
+    height: 15px;
+    width: auto;
+    position: absolute;
+    top: 30px;
+    right: 20px;
+}
+.essay_sec1_right_text_div{
+    margin-top: 30px !important;
+}
+.essay_sec1_right_text_div h2{
+    color: #fff;
+    font-size: 34px;
+}
+.essay_sec1_right_text_div p{
+    color: rgba(255, 255, 255, 0.72);
+    margin-bottom: 2px;
+}
+.essay_bottom_icon_div {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 93px;
+    margin-top: 60px;
+}
+.essay_bottom_icon_div img{
+    height: 18px;
+    width: auto;
+}
+.allessay_sec1_row{
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.essay_all_top_text h2{
+    color: #fff;
+}
+.essay_all_top_text h2 a{
+    text-decoration: none;
+}
+.essay_all_top_text p{
+    color: rgba(255, 255, 255, 0.72);
+}
+.essay_all_top_icon{
+    padding-top: 20px;
+}
+.essay_all_top_icon img{
+    height: 15px;
+    width: auto;
+}
+.essay_detail_icon_div{
+    padding-top: 80px;
+}
+.essay_detail_icon_div a{
+    color: #fff;
+}
+.essay_detail_icon_div a img{
+    height: 18px;
+}
+.essay_detail_icon_div a span{
+    margin-left: 20px;
+    font-size: 20px;
+}
+.essay_detail_all_top_text{
+    padding: 20px;
+    margin-top: 30px;
+}
+.essay_detail_all_top_text h2{
+    color: #fff;
+}
+.essay_detail_all_top_text p{
+    color: rgba(255, 255, 255, 0.72);
+}
+.essay_detail_card_div{
+    padding: 20px;
+}
+.essay_detail_card_div img{
+    width: 100%;
+    height: 200px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+.essay_detail_card_div p{
+    color: #FFFFFF;
+    font-size: 15px;
+}
+.essay_detail_card_div label{
+    color: #fff;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+@media (max-width:992px){
+    .essay_bottom_icon_div{
+        margin-bottom: 40px;
+    }
+    .essay_navbar_div {
+        padding-top: 0px;
+    }
+    .essay_sec1_row{
+        flex-direction: column-reverse;
+    }
+    .essay_sec1_right_text_div{
+        padding-top: 60px;
+        width: 100%;
+        max-width: 400px;
+        margin: auto;
+    }
+    .nav_container_fluid{
+        padding-top: 60px;
+        width: 100%;
+        max-width: 350px;
+        margin: auto;
+    }
+    .essay_bottom_icon_div{
+        margin-top: 30px !important;
+        margin-bottom: 30px !important;
+        width: 100%;
+        max-width: 335px;
+        margin: auto;
+        justify-content: space-between;
+    }
+    .essay_sec1_card_body_div{
+        margin: auto;
+    }
+    .essay_sec1_row{
+        padding-top: 20px;
+    }
+    .essay_main_div{
+        padding-top: 10px;
+    }
+}
+@media (max-width:768px){
+    .essay_bottom_icon_div {
+        width: 100%;
+        max-width: 400px;
+        margin: auto;
+        margin-top: 30px !important;
+        justify-content: space-between;
+        padding-right: 0;
+    }
+    .nav_ul_gap {
+        gap: 15px;
+    }
+    .nav_container_fluid {
+        padding-top: 15px;
+    }
+}
+@media (max-width:550px){
+    .essay_main_div {
+        padding-top: 60px;
+    }
+   .essay_all_top_text{
+        width: 100%;
+        max-width: 350px;
+        margin: auto;
+   }
+   .essay_sec1_card_body_div{
+        width: 100%;
+        max-width: 350px;
+        margin: auto;
+        margin-top: 50px !important;
+   }
+    .essay_sec1_right_text_div{
+        width: 100%;
+        max-width: 350px;
+        margin: auto;
+        padding-top: 60px;
+    }
+   .essay_all_top_icon{
+        padding-left: 20px;
+   }
+   .essay_bottom_icon_div{
+        width: 100%;
+        max-width: 335px;
+        margin: auto;
+        margin-top: 110px !important;
+        justify-content: space-between;
+        padding-right: 0;
+    }
+    .essay_navbar_div {
+        background-color: #151718;
+        position: fixed;
+        top: 0px;
+        width: 100%;
+        z-index: 3;
+        padding-top: 20px;
+    }
+    .essay_bottom_icon_div img {
+        height: 23px;
+        width: auto;
+    }
+}
+@media (max-width:400px){
+    .essay_all_top_text{
+        width: 100%;
+        max-width: 300px;
+        margin: auto;
+    }
+    .essay_sec1_right_text_div {
+        width: 100%;
+        max-width: 300px;
+        margin: auto;
+    }
+    .essay_sec1_card_body_div{
+         width: 100%;
+         max-width: 300px;
+         margin: auto;
+    }
+    .essay_all_top_icon{
+         padding-left: 20px;
+    }
+    .essay_card_img_div img {
+        border-radius: 10px 10px 0px 0px;
+        width: 100%;
+        height: 140px;
+    }
+    .essay_bottom_icon_div{
+        width: 100%;
+        max-width: 280px;
+        margin: auto;
+    }
+    .nav_container_fluid {
+        width: 100%;
+        max-width: 330px;
+        margin: auto;
+        padding-right: 30px;
+    }
+    .essay_sec1_right_text_div h2{
+        font-size: 40px;
+    }
+    .essay_sec1_right_text_div p{
+        font-size: 20px;
+    }
+}
+@media (max-width:320px){
+    .essay_sec1_right_text_div {
+        padding-top: 40px;
+        width: 100%;
+        max-width: 400px;
+        margin: auto;
+    }
+    .essay_all_top_icon {
+        padding-left: 5px;
+    }
+    .nav_container_fluid {
+        width: 100%;
+        max-width: 227px;
+        margin: auto;
+    }
+    .essay_sec1_right_text_div h2 {
+        font-size: 33px;
+    }
+    .essay_bottom_icon_div {
+        margin-top: 60px !important;
+        gap: 88px;
+    }
+    .essay_sec1_card_body_div {
+        margin-top: 40px !important;
+    }
+    .nav_container_fluid {
+        padding-top: 0px;
+    }
+}
+
