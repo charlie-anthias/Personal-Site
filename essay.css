@@ -28,6 +28,31 @@ body{
 a{
     text-decoration: none;
 }
+
+a:link {
+  color: #BDBEBE;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #BDBEBE;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: white;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: white;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
 .essay_navbar_div{
     width: 100%;
     padding-top: 60px;
