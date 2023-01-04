@@ -29,6 +29,10 @@ a{
     text-decoration: none;
 }
 
+h4, h5{
+    color: #BEBEBF
+}
+
 a:link {
   color: #BDBEBE;
   background-color: transparent;
