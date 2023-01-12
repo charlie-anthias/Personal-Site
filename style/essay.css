@@ -60,7 +60,7 @@ a:active{
     padding-right:0
 }
 .nav_ul_gap{
-    gap: 70px
+    gap: 40px
 }
 .navbar ul li a{
     color:#fff!important
@@ -112,15 +112,15 @@ a:active{
 .essay_sec1_right_text_div p{
     color:rgba(255,255,255,0.72);
     margin-bottom:2px
-}
+/* }
 .row{
     --bs-gutter-x: 0px;
-}
+}*/
 .essay_bottom_icon_div{
     display:flex;
     justify-content:end;
     align-items:center;
-    gap: 102px;
+    gap: 93px;
     margin-top:60px
 }
 .essay_bottom_icon_div img{
