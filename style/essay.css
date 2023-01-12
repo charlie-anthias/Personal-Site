@@ -112,10 +112,10 @@ a:active{
 .essay_sec1_right_text_div p{
     color:rgba(255,255,255,0.72);
     margin-bottom:2px
-/* }
+}
 .row{
     --bs-gutter-x: 0px;
-}*/
+}
 .essay_bottom_icon_div{
     display:flex;
     justify-content:end;
