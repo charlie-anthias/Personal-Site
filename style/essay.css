@@ -12,6 +12,12 @@ body{
     height:auto;
     min-height:100vh
 }
+
+.essays-button{
+    left: 50px;
+}
+
+
 .essay_main_div{
     position:relative;
     width:100%;
