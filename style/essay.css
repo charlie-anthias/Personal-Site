@@ -2,6 +2,9 @@
     font-family:"A1";
     src:url(/fonts/Questrial-Regular.ttf)
 }
+/* .essay_sec1_right_text_div,.navbar-nav, li,.essay_bottom_icon_div, .essay_bottom_icon_div img{
+    border: 1px solid #fff;
+} */
 body{
     font-family:"A1";
     padding:0;
@@ -12,7 +15,10 @@ body{
     height:auto;
     min-height:100vh
 }
-
+.navbar-expand-lg .navbar-nav .nav-link{
+    padding-left: 0;
+    padding-right: 0;
+}
 
 .essay_main_div{
     position:relative;
@@ -62,7 +68,7 @@ a:active{
     padding-right:0
 }
 .nav_ul_gap{
-    gap: 70px
+    gap: 68.5px;
 }
 .navbar ul li a{
     color:#fff!important
@@ -109,13 +115,14 @@ a:active{
 }
 .essay_sec1_right_text_div h2{
     color:#fff;
-    font-size:34px
+    font-size:36px
 }
 .essay_sec1_right_text_div p{
     color:rgba(255,255,255,0.72);
-    margin-bottom:2px
+    margin-bottom:2px;
+    font-size: 18px;
 }
-.row{
+.index_row{
     --bs-gutter-x: 0px;
 }
 .essay_bottom_icon_div{
