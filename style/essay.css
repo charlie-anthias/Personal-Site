@@ -11,6 +11,10 @@ body{
     margin:0;
     background:#151718
 }
+
+.p{
+   font-size:20px;
+}
 .essay_section_one{
     height:auto;
     min-height:100vh
